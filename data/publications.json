@@ -18,6 +18,11 @@
       }
     ],
     "meta": "In Network and Distributed System Security Symposium, 2026.",
-    "links": ["https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/"]
+    "links": [
+      {
+        "label": "NDSS",
+        "url": "https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/"
+      }
+    ]
   }
 ]

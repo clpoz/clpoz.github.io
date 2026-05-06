@@ -35,6 +35,20 @@ const formatAuthors = (authors = []) => {
   return `${names.slice(0, -1).join(", ")}, and ${names.at(-1)}`;
 };
 
+const normalizeLink = (link) => {
+  if (typeof link === "string") {
+    return {
+      label: "Link",
+      url: link
+    };
+  }
+
+  return {
+    label: link.label || link.title || link.name || "Link",
+    url: link.url || link.href || link.link || "#"
+  };
+};
+
 const renderNews = (items) => {
   const list = document.querySelector("#news-list");
 
@@ -56,10 +70,9 @@ const renderPublications = (items) => {
   list.innerHTML = items
     .map((item) => {
       const links = (item.links || [])
-        .map(
-          (link) =>
-            `<a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`
-        )
+        .map(normalizeLink)
+        .filter((link) => link.url && link.url !== "#")
+        .map((link) => `<a href="${escapeHtml(link.url)}">${escapeHtml(link.label)}</a>`)
         .join("");
 
       return `
