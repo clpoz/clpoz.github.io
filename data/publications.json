@@ -20,8 +20,12 @@
     "meta": "In Network and Distributed System Security Symposium, 2026.",
     "links": [
       {
-        "label": "NDSS",
+        "label": "PDF",
         "url": "https://www.ndss-symposium.org/ndss-paper/causal-guided-detoxify-backdoor-attack-of-open-weight-lora-models/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/clpoz/CBA"
       }
     ]
   }
