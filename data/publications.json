@@ -1,0 +1,23 @@
+[
+  {
+    "venue": "NDSS 2026",
+    "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+    "authors": [
+      {
+        "name": "Linzhi Chen",
+        "me": true
+      },
+      {
+        "name": "Yang Sun"
+      },
+      {
+        "name": "Hongru Wei"
+      },
+      {
+        "name": "Yuqi Chen"
+      }
+    ],
+    "meta": "In Network and Distributed System Security Symposium, 2026.",
+    "links": []
+  }
+]

@@ -239,6 +239,10 @@ h3 {
   font-weight: 700;
 }
 
+.loading {
+  color: var(--muted);
+}
+
 .publication {
   display: grid;
   grid-template-columns: 150px 1fr;
