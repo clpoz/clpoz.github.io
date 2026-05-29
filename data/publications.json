@@ -28,5 +28,26 @@
         "url": "https://github.com/clpoz/CBA"
       }
     ]
+  },
+  {
+    "venue":"IJCNN 2026",
+    "title":"FROM: A Framework for Recognizing the Origins of LLMs in Black-Box Conditions",
+    "authors":[
+      {
+        "name":"Hongru Wei"
+      },
+      {
+        "name":"Qingyuan Hu"
+      },
+      {
+        "name":"Linzhi Chen",
+        "me":true
+      },
+      {
+        "name":"Yuqi Chen"
+      }
+    ],
+    "meta":" The International Joint Conference on Neural Networks (IJCNN) 2026.",
+    "links":[]
   }
 ]
